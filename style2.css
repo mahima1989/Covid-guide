@@ -1,0 +1,66 @@
+
+
+
+
+
+.jumbotron{
+
+        color: blue;
+        text-align:center;
+}
+
+/*news*/
+
+.newsGrid{
+        
+        margin:10px;
+        border: 1px solid lightgrey;
+        padding: 10px;
+}
+
+.con{
+        font-size:14px;
+        position: relative;
+        left:180px;
+            
+}
+
+    
+.news h2{
+        font-size:17px;
+    }
+ .news p{
+        font-size:13px;
+    }
+
+ 
+ .news{
+   margin-bottom: 80px; 
+}
+/*news*/
+
+.imgss{
+        
+        width: calc(100%-20px);
+        height: 180px;
+        margin: 10px;
+}
+
+#statistics th{
+        color: #21bf73;
+        background-color: white;
+            
+ }
+#statistics td{
+        font-family:inherit;
+        font-weight: 600;
+        font-size: 18px;
+}
+
+#statistics{
+        padding: 50px 70px;
+    
+}
+
+
+

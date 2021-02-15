@@ -1,0 +1,423 @@
+*{
+
+  padding: 0px 0px;
+}
+
+
+/* slide1 */
+.bg1{
+background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/karlie-kloss-is-seen-wearing-a-baby-blue-ralph-lauren-news-photo-1575557364.jpg');
+height: 90vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 75% 5%;
+}
+.hm{
+  height: 60px;
+  /* width: 40px; */
+  position: relative;
+  top:450px;
+  left:1150px;
+}
+.karlie-headline{
+  font-size: 30px;
+  color: #204051;
+  font-family: 'Satisfy', cursive;
+  position: relative;
+  top:230px;
+  left:850px;
+}
+.red{
+  padding: 37px;
+  background-color: #d92027;
+  color: white;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  display:inline-block;
+}
+
+
+
+/* slide2 */
+.bg2{
+background-image: url('https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2019%2F05%2Fhailey-bieber-levis-501-campaign-1.jpg?q=90&w=1400&cbr=1&fit=max');
+height: 90vh;
+background-repeat: no-repeat;
+background-size:cover;
+background-position:  250px 0px;
+}
+.hailey{
+  height:450px;
+  width:300px;
+  position: relative;
+  top:150px;
+  left:0px;
+}
+.levis{
+  height:140px;
+  position: absolute;
+  left:1150px;
+top: -40px;
+}
+.sale{
+height: 320px;
+position: absolute;
+left:120px;
+top:-40px;
+transform: rotate(-10deg);
+z-index: 1;
+}
+
+/* slide3 */
+.bg3{
+background-image: url('https://www.lebook.com/sites/default/files/styles/showcase_image_large/public/gg_kt_wis16fall_bts_006_v5_qc_rgb300.jpg?itok=vF1sudDy');
+height: 90vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 75% 5%;
+}
+.gap{
+  height: :120px;
+  width: 150px;
+  position: relative;
+  top:15px;
+  left:1150px;
+}
+.gap-headline{
+  font-family: 'Alfa Slab One', cursive;
+}
+.gap-con{
+  background-color:white;
+  display:inline-block;
+  padding: 10px 10px 0px 10px;
+  position:relative;
+  top:400px;
+  right: 154px;
+}
+
+
+/* slide4 */
+.bg4{
+  background-image: url('https://mediaslide-europe.storage.googleapis.com/brooks/pictures/398/3895/large-1560956317-66d607da92c5436572ce6e85567bd848.jpg');
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 75% 0%;
+}
+.brand{
+  position: absolute;
+  height:150px;
+  top:400px;
+  left:1210px;
+
+}
+.tagline{
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top:450px;
+  left:50px;
+}
+
+
+/* section2 */
+#show{
+  margin: 50px 0px;
+}
+.cont1{
+
+}
+.kurta-head{
+  text-align: center;
+  margin: 10px 10px 0px 50px;
+  font-size: 25px;
+}
+.box{
+font-family: 'Play', sans-serif;
+font-weight: bold;
+
+}
+.one{
+  padding: 50px;
+}
+.kurta-box{
+  height: 300px;
+  border-radius: 50px;
+}
+.leggins-box{
+    height: 300px;
+    border-radius: 50px;
+    position: relative;
+    top:50px;
+}
+.leg-head{
+  position: relative;
+left:70px;
+  top:60px;
+    font-size: 25px;
+}
+.saree-box{
+  height: 300px;
+  border-radius: 50px;
+  position: relative;
+  top:50px;
+}
+.saree-head{
+  position: relative;
+  top:60px;
+    font-size: 25px;
+  left:70px;
+}
+.dress-box{
+  height: 300px;
+  border-radius: 50px;
+  width: 250px;
+  position: relative;
+  top:50px;
+  right:50px;
+}
+.dress-head{
+  position: relative;
+  top:60px;
+  left:30px;
+    font-size: 25px;
+}
+/* row2 */
+.tshirt-box{
+  height: 300px;
+  border-radius: 50px;
+  position: relative;
+  right:15px;
+  width:280px;
+}
+.tshirt-head{
+  text-align: center;
+  margin: 10px 10px 0px 10px;
+  font-size: 25px;
+}
+.tshirt-head2{
+  text-align: center;
+  margin: 10px 40px 10px 0px;
+  font-size: 25px;
+}
+.trouser-box{
+  height: 300px;
+  border-radius: 50px;
+  position: relative;
+  right:50px;
+}
+
+.tops-box{
+  height: 300px;
+  border-radius: 50px;
+  width:300px;
+  position: relative;
+  left:30px;
+}
+.suit-box{
+  height: 300px;
+  border-radius: 50px;
+  position: relative;
+left:40px;
+
+}
+.girl1{
+height: 480px;
+position: relative;
+left:40px;
+top:100px;
+}
+.girl2{
+  height: 480px;
+  position: relative;
+  left:140px;
+
+top:100px;
+}
+#content{
+  background-color: #;
+  height: 100vh;
+}
+.paras{
+  display: inline-block;
+  width: 300px;
+  position: relative;
+  left:140px;
+  font-size: 22px;
+text-align: center;
+line-height: 1.5;
+top:50px;
+font-family: 'Pacifico', cursive;
+color: #184d47;
+}
+.bot{
+  position: relative;top:150px;
+  right: 95px;
+  font-family: 'Play', sans-serif;
+}
+.bot a{
+  text-decoration: none;
+  color: white;
+
+}
+.bot:hover a{
+  text-decoration: none;
+  color: white;
+}
+/* shoppingcart */
+.shop-dress{
+  height:400px;
+  border-radius: 40px;
+}
+.shopping{
+  padding: 100px 150px ;
+  background-color: #f5f5f5;
+}
+.shop-icon{
+  display: inline-block;
+  color: #e7305b;
+}
+#cart h2{
+
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+#cart h1{
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: 'Ubuntu', sans-serif;
+
+ }
+ #cart p{
+   color: #e7305b;
+   font-size: 18px;
+   font-family: 'Ubuntu', sans-serif;
+
+ }
+ #cart h3{
+   font-size: 16px;
+   color: #e7305b;
+
+ }
+  .but{
+   border-color: grey;
+   margin: 15px 5px ;
+   padding: 5px 10px;
+   border-color: grey;
+   background-color: white;
+   border-radius: 50px;
+  font-family: 'Play', sans-serif;
+  font-weight:500;
+
+ }
+ .but a{border-color: grey;
+color: black;
+text-decoration: none;
+ border-color: grey;
+ background-color: white;
+ border-radius: 50px;
+font-family: 'Play', sans-serif;
+font-weight:500;
+}
+ .but:hover{
+   border-color: #e7305b;
+  font-family: 'Play', sans-serif;
+ }
+ .but:active{
+
+ border-radius: 50px;
+
+ }
+ .boot-btn{
+   background-color:#e7305b;
+   border-color: #e7305b;
+     margin-top: 40px;
+     font-family: 'Ubuntu', sans-serif;
+ }
+ .boot-btn:hover{
+   background-color: #f76a8c;
+    border-color: #f76a8c;
+    font-family: 'Ubuntu', sans-serif;
+
+ }
+
+
+
+/*carousel*/
+
+.ban1{
+
+  height:50vh;
+
+}
+
+.ban3{
+
+  height:120vh;
+
+}
+
+.ban2{
+
+  height:120vh;
+  width:220vh;
+
+}
+
+.boot-btn{
+   background-color:#e7305b;
+   border-color: #e7305b;
+     margin-top: 40px;
+
+     font-family: 'Ubuntu', sans-serif;
+ }
+ .boot-btn:hover{
+   background-color: #f76a8c;
+    border-color: #f76a8c;
+    font-family: 'Ubuntu', sans-serif;
+
+ }
+
+
+
+/*exit*/
+/* exit */
+
+.cardm{
+  margin-left: 70px;
+}
+/*.card-girl{
+  height:220px;
+   width:150px; 
+  margin-top: 10px;
+}*/
+.cardcon{
+  padding:10px 50px;;
+}
+.right{
+  margin-left: 120px;
+}
+#exit .card a{
+  color: white;
+  text-decoration: none;
+
+}
+#exit .card button{
+margin-left: 35px;
+}
+#droplist a{
+  display: block;
+  color: Black;
+  text-decoration: none;
+
+}
+.cardgirlout{
+  border: 1px solid #e8e4e1;
+  padding: 10px 2px;
+
+}
+hr{
+  color: #fce8d5;
+}

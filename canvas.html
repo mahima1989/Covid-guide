@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+    #myCanvas {
+  border: solid black 1px;
+}
+  </style>
+
+    <body onload="init();">
+<canvas id="myCanvas" width="400" height="400">
+    Fallback content that will be displayed in case the web browser
+    does not support the canvas tag or in case scripting
+    is disabled.
+</canvas>
+  <script>
+    var canvas, ctx;
+
+function init() {
+  canvas=document.getElementById('myCanvas');
+  ctx=canvas.getContext('2d');
+  drawFlower(100, 100, Math.PI/4, 'pink', 'purple');
+
+  ctx.fillStyle='green';
+  ctx.fillRect(150,225,5,150)
+
+
+}
+
+function drawFlower(x, y, angle, horizFlower, vertFlower) {
+
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.rotate(angle)
+
+  ctx.fillStyle=vertFlower;
+  ctx.fillRect(75,50,50,75);
+  ctx.fillRect(75,-75,50,75);
+
+  ctx.fillStyle=horizFlower;
+  ctx.fillRect(125,0,75,50);
+  ctx.fillRect(0,0,75,50);
+
+  ctx.fillStyle='gold';
+  ctx.fillRect(75,0,50,50);
+
+  ctx.fillStyle='green';
+  ctx.fillRect(150,125,50,5);
+
+
+  ctx.restore();
+}
+  </script>
+
+  </body>
+</html>
